@@ -1,0 +1,18 @@
+<div id="app">
+  <form >
+
+    <div>
+      <label for="caps">Type your query below</label><br>
+      <textarea id="caps" [(ngModel)]="prompt" name="name"></textarea>
+    </div>
+    <button  id="submit" type="submit" (click)="getResponse()" >Submit</button>
+    <button  id = "clear"type="submit" (click)="clearResponse()" >Clear</button>
+    <div>
+      <h4>Response from chatGPT:</h4>
+      <img src="../assets/1494.gif" *ngIf="loading==true"/>
+      <div class="response">{{response}}</div>
+    </div>
+  </form>
+</div>
+
+<router-outlet></router-outlet>
