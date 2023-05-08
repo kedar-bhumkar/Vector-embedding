@@ -1,7 +1,9 @@
-
+OPENAI_KEY = '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'
+PINECONE_KEY ='001becd1-9bf5-4f79-b2dc-5d7802255c78'
 PINECONE_ENV = 'eu-west1-gcp'
 PINECONE_INDEX = 'medical-vector-data-index'
 EMBEDDING_MODEL = 'text-embedding-ada-002'
+ATLAS_TOKEN='1-KKooiZ0C_3IjgT8-WyaqDn7Pe5m3XgOhWgp6wN1tUR_'
 
 #ChatGPT parameter controls
 CHATGPT_PERSONALITY_MODE = 'Nice' # Options  - (Nice, Rogue, Gangster)
